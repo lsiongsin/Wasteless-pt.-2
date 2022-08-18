@@ -17,23 +17,44 @@ class ShoppingList: UIViewController {
     }
     
 
-    @IBAction func dairyInputText(_ sender: UITextField) {
-    }
+    @IBOutlet weak var dairyInputText: UITextField!
     
-    @IBAction func produceInputText(_ sender: UITextField) {
-    }
     
-    @IBAction func proteinInputText(_ sender: UITextField) {
-    }
+    @IBOutlet weak var produceInputText: UITextField!
     
-    @IBAction func grainInputText(_ sender: UITextField) {
-    }
+    @IBOutlet weak var proteinInputText: UITextField!
+    
+    @IBOutlet weak var grainInputText: UITextField!
+
+    // divider
     
     @IBAction func changeText(_ sender: UIButton) {
         if let temporary = dairyInputText.text {
-            InitialData.textPassed = temporary
+            shoppingListData.dairy = temporary
         }
     }
+    
+
+    @IBAction func changeTextP(_ sender: UIButton) {
+        if let temporary = produceInputText.text {
+            shoppingListData.produce = temporary
+        }
+    }
+    
+    
+    @IBAction func changeTextPT(_ sender: UIButton) {
+        if let temporary = proteinInputText.text {
+            shoppingListData.protein = temporary
+        }
+    }
+    
+    
+    @IBAction func changeTextG(_ sender: UIButton) {
+        if let temporary = grainInputText.text {
+            shoppingListData.grain = temporary
+        }
+    }
+    
     
     /*
     // MARK: - Navigation

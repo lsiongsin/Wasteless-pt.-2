@@ -160,65 +160,6 @@
             </objects>
             <point key="canvasLocation" x="1125" y="806"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="QPr-5N-KhG">
-            <objects>
-                <viewController id="5H5-je-zwR" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="kwi-rm-xaL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karlie's Kookies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7U-gN-bcj">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
-                                <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qP-DF-vu3">
-                                <rect key="frame" x="0.0" y="801" width="414" height="95"/>
-                                <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
-                                <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqL-VF-PRU">
-                                <rect key="frame" x="0.0" y="149" width="414" height="644"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="25Y-t3-eJg">
-                                        <rect key="frame" x="8" y="8" width="398" height="1000"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="1000" id="OOO-FP-Zh4"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="25Y-t3-eJg" secondAttribute="bottom" constant="-19" id="1Qa-lu-rNB"/>
-                                    <constraint firstItem="25Y-t3-eJg" firstAttribute="top" secondItem="wqL-VF-PRU" secondAttribute="top" constant="8" id="4UR-uc-Mpi"/>
-                                    <constraint firstItem="25Y-t3-eJg" firstAttribute="leading" secondItem="wqL-VF-PRU" secondAttribute="leading" constant="8" id="62F-kR-zcj"/>
-                                    <constraint firstAttribute="trailing" secondItem="25Y-t3-eJg" secondAttribute="trailing" constant="8" id="Skb-p5-W5o"/>
-                                </constraints>
-                            </scrollView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Odr-UJ-EDi"/>
-                        <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="25Y-t3-eJg" firstAttribute="height" secondItem="kwi-rm-xaL" secondAttribute="height" multiplier="1.11607" id="FOc-Uq-WbK"/>
-                            <constraint firstItem="wqL-VF-PRU" firstAttribute="leading" secondItem="Odr-UJ-EDi" secondAttribute="leading" id="MVn-tF-79t"/>
-                            <constraint firstItem="25Y-t3-eJg" firstAttribute="width" secondItem="kwi-rm-xaL" secondAttribute="width" multiplier="0.961353" id="SLy-Nm-XEN"/>
-                            <constraint firstItem="7qP-DF-vu3" firstAttribute="top" secondItem="wqL-VF-PRU" secondAttribute="bottom" constant="8" symbolic="YES" id="TnF-0g-rbX"/>
-                            <constraint firstItem="wqL-VF-PRU" firstAttribute="trailing" secondItem="Odr-UJ-EDi" secondAttribute="trailing" id="hOD-II-h81"/>
-                            <constraint firstItem="wqL-VF-PRU" firstAttribute="top" secondItem="Odr-UJ-EDi" secondAttribute="top" constant="105" id="zAm-bD-5sc"/>
-                        </constraints>
-                    </view>
-                    <size key="freeformSize" width="414" height="896"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q6S-xl-byb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2034.7826086956522" y="900.66964285714278"/>
-        </scene>
         <!--Recipes-->
         <scene sceneID="Y29-6d-Huq">
             <objects>
@@ -227,17 +168,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Recipes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFQ-sY-bJh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Recipes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFQ-sY-bJh">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
                                 <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaB-li-iqr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaB-li-iqr">
                                 <rect key="frame" x="0.0" y="801" width="414" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
                                 <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -247,7 +186,7 @@
                                 <rect key="frame" x="0.0" y="196" width="414" height="565"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8DX-8Y-jgB">
-                                        <rect key="frame" x="4" y="-40" width="406" height="927"/>
+                                        <rect key="frame" x="4" y="-40" width="406" height="755"/>
                                         <subviews>
                                             <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-3A-vu8">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
@@ -312,13 +251,13 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="19"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="5H5-je-zwR" kind="presentation" id="y7G-aB-aPE"/>
+                                                    <segue destination="RSU-cX-ktN" kind="presentation" id="Hoc-85-0UL"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="KrB-BQ-9FS"/>
+                                            <constraint firstAttribute="height" constant="927" id="gw6-tk-Yfk"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -333,11 +272,16 @@
                         <viewLayoutGuide key="safeArea" id="hoz-Io-GTY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="aGI-P8-nLb" firstAttribute="leading" secondItem="zaB-li-iqr" secondAttribute="leading" id="231-sQ-oe1"/>
+                            <constraint firstItem="zaB-li-iqr" firstAttribute="top" secondItem="aGI-P8-nLb" secondAttribute="bottom" constant="40" id="AKO-ot-8yc"/>
                             <constraint firstItem="aGI-P8-nLb" firstAttribute="trailing" secondItem="hoz-Io-GTY" secondAttribute="trailing" id="JbS-nu-v7Y"/>
                             <constraint firstItem="8DX-8Y-jgB" firstAttribute="width" secondItem="za8-kP-lBO" secondAttribute="width" multiplier="0.980676" id="UB9-Cw-Gfy"/>
                             <constraint firstItem="hoz-Io-GTY" firstAttribute="bottom" secondItem="aGI-P8-nLb" secondAttribute="bottom" constant="52" id="aQ2-EA-imn"/>
                             <constraint firstItem="aGI-P8-nLb" firstAttribute="top" secondItem="hoz-Io-GTY" secondAttribute="top" constant="108" id="bbv-LA-HbN"/>
-                            <constraint firstItem="8DX-8Y-jgB" firstAttribute="height" secondItem="za8-kP-lBO" secondAttribute="height" multiplier="0.725446" id="cpv-W8-ccv"/>
+                            <constraint firstItem="aGI-P8-nLb" firstAttribute="trailing" secondItem="fFQ-sY-bJh" secondAttribute="trailing" id="dhn-4f-t7U"/>
+                            <constraint firstItem="aGI-P8-nLb" firstAttribute="top" secondItem="fFQ-sY-bJh" secondAttribute="bottom" constant="36" id="ePz-Wt-DyD"/>
+                            <constraint firstItem="aGI-P8-nLb" firstAttribute="leading" secondItem="fFQ-sY-bJh" secondAttribute="leading" id="hKw-d4-BaZ"/>
+                            <constraint firstItem="aGI-P8-nLb" firstAttribute="trailing" secondItem="zaB-li-iqr" secondAttribute="trailing" id="oKl-lD-iec"/>
                             <constraint firstItem="aGI-P8-nLb" firstAttribute="leading" secondItem="hoz-Io-GTY" secondAttribute="leading" id="t3F-cf-HH0"/>
                         </constraints>
                     </view>
@@ -356,17 +300,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Inventory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocd-YP-Ilm">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="My Inventory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocd-YP-Ilm">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
                                 <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYX-Ei-7XY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYX-Ei-7XY">
                                 <rect key="frame" x="0.0" y="801" width="414" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
                                 <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -475,11 +417,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="XCq-Wu-nuP" firstAttribute="top" secondItem="Lii-yC-LxH" secondAttribute="top" constant="108" id="27d-7F-FWU"/>
+                            <constraint firstAttribute="bottom" secondItem="VYX-Ei-7XY" secondAttribute="bottom" id="2Wx-I7-yqU"/>
+                            <constraint firstItem="XCq-Wu-nuP" firstAttribute="top" secondItem="ocd-YP-Ilm" secondAttribute="bottom" constant="36" id="Ad5-KA-JdG"/>
+                            <constraint firstItem="VYX-Ei-7XY" firstAttribute="top" secondItem="XCq-Wu-nuP" secondAttribute="bottom" constant="40" id="BWb-F4-Xmd"/>
                             <constraint firstItem="Klu-bn-8F1" firstAttribute="width" secondItem="myL-yX-ymM" secondAttribute="width" id="Csj-Bi-DhZ"/>
                             <constraint firstItem="XCq-Wu-nuP" firstAttribute="leading" secondItem="Lii-yC-LxH" secondAttribute="leading" id="MNN-eG-sya"/>
                             <constraint firstItem="XCq-Wu-nuP" firstAttribute="trailing" secondItem="Lii-yC-LxH" secondAttribute="trailing" id="Msl-iw-0Nd"/>
+                            <constraint firstItem="XCq-Wu-nuP" firstAttribute="trailing" secondItem="ocd-YP-Ilm" secondAttribute="trailing" id="QOg-Pt-LJG"/>
+                            <constraint firstItem="XCq-Wu-nuP" firstAttribute="leading" secondItem="ocd-YP-Ilm" secondAttribute="leading" id="UUv-hV-ht9"/>
+                            <constraint firstItem="XCq-Wu-nuP" firstAttribute="trailing" secondItem="VYX-Ei-7XY" secondAttribute="trailing" id="W0q-Fz-zhF"/>
                             <constraint firstItem="Lii-yC-LxH" firstAttribute="bottom" secondItem="XCq-Wu-nuP" secondAttribute="bottom" constant="52" id="ZGC-L4-DtF"/>
                             <constraint firstItem="Klu-bn-8F1" firstAttribute="height" secondItem="myL-yX-ymM" secondAttribute="height" multiplier="1.67411" id="sRe-p3-mBM"/>
+                            <constraint firstItem="XCq-Wu-nuP" firstAttribute="leading" secondItem="VYX-Ei-7XY" secondAttribute="leading" id="uML-4U-EaI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jm7-vO-a0K"/>
@@ -554,9 +503,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0v-kM-srv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0v-kM-srv">
                                 <rect key="frame" x="0.0" y="801" width="414" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
                                 <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -587,18 +535,12 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
-                                                <connections>
-                                                    <action selector="dairyInputText:" destination="Mpd-OU-ob9" eventType="editingDidEnd" id="9Yr-rD-Exj"/>
-                                                </connections>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YCF-nM-ju0">
                                                 <rect key="frame" x="22" y="132" width="305" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
-                                                <connections>
-                                                    <action selector="produceInputText:" destination="Mpd-OU-ob9" eventType="editingDidEnd" id="pF1-dT-gqj"/>
-                                                </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Protein" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XVE-Qv-Nfb">
                                                 <rect key="frame" x="22" y="180" width="77" height="30"/>
@@ -612,9 +554,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
-                                                <connections>
-                                                    <action selector="proteinInputText:" destination="Mpd-OU-ob9" eventType="editingDidEnd" id="SxE-cA-MpK"/>
-                                                </connections>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grain" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyl-Xp-lpQ">
                                                 <rect key="frame" x="22" y="268" width="61" height="30"/>
@@ -628,9 +567,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
-                                                <connections>
-                                                    <action selector="grainInputText:" destination="Mpd-OU-ob9" eventType="editingDidEnd" id="8Pa-DD-643"/>
-                                                </connections>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdk-CQ-BbA">
                                                 <rect key="frame" x="332" y="46" width="64" height="34"/>
@@ -654,6 +590,9 @@
                                                     <color key="baseForegroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="changeTextP:" destination="Mpd-OU-ob9" eventType="touchUpInside" id="N8K-TF-igk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyx-Fe-nQm">
                                                 <rect key="frame" x="332" y="218" width="64" height="34"/>
@@ -664,6 +603,9 @@
                                                     <color key="baseForegroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="changeTextPT:" destination="Mpd-OU-ob9" eventType="touchUpInside" id="XJs-C2-GdU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTW-GK-TR9">
                                                 <rect key="frame" x="332" y="306" width="64" height="34"/>
@@ -674,6 +616,9 @@
                                                     <color key="baseForegroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <color key="baseBackgroundColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="changeTextG:" destination="Mpd-OU-ob9" eventType="touchUpInside" id="6Cc-ya-UO5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -690,9 +635,8 @@
                                     <constraint firstAttribute="bottom" secondItem="Oxi-lC-Lbg" secondAttribute="bottom" constant="8" id="rgH-Pb-mbs"/>
                                 </constraints>
                             </scrollView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Shopping List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwF-BK-H6T">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Shopping List" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OwF-BK-H6T">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
                                 <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -702,26 +646,252 @@
                         <viewLayoutGuide key="safeArea" id="fpU-R4-5Zm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="x0v-kM-srv" firstAttribute="top" secondItem="wLV-Gt-BB1" secondAttribute="bottom" constant="44" id="CaI-PU-9dI"/>
+                            <constraint firstItem="wLV-Gt-BB1" firstAttribute="trailing" secondItem="x0v-kM-srv" secondAttribute="trailing" id="Kpj-Zw-gvi"/>
                             <constraint firstItem="wLV-Gt-BB1" firstAttribute="trailing" secondItem="fpU-R4-5Zm" secondAttribute="trailing" id="a2R-8O-1Kj"/>
                             <constraint firstItem="wLV-Gt-BB1" firstAttribute="top" secondItem="fpU-R4-5Zm" secondAttribute="top" constant="114" id="aM4-yU-FXA"/>
+                            <constraint firstItem="wLV-Gt-BB1" firstAttribute="leading" secondItem="OwF-BK-H6T" secondAttribute="leading" id="aTT-BF-B9m"/>
                             <constraint firstItem="Oxi-lC-Lbg" firstAttribute="width" secondItem="R6S-eP-TTd" secondAttribute="width" id="cCW-zD-fgg"/>
+                            <constraint firstItem="wLV-Gt-BB1" firstAttribute="top" secondItem="OwF-BK-H6T" secondAttribute="bottom" constant="42" id="e9G-Jo-jWn"/>
+                            <constraint firstItem="wLV-Gt-BB1" firstAttribute="trailing" secondItem="OwF-BK-H6T" secondAttribute="trailing" id="gPy-En-BRO"/>
+                            <constraint firstAttribute="bottom" secondItem="x0v-kM-srv" secondAttribute="bottom" id="kHb-B0-Dz5"/>
                             <constraint firstItem="wLV-Gt-BB1" firstAttribute="leading" secondItem="fpU-R4-5Zm" secondAttribute="leading" id="lHD-Bd-YSv"/>
                             <constraint firstItem="fpU-R4-5Zm" firstAttribute="bottom" secondItem="wLV-Gt-BB1" secondAttribute="bottom" constant="56" id="mfg-Gw-f0g"/>
                             <constraint firstItem="Oxi-lC-Lbg" firstAttribute="height" secondItem="R6S-eP-TTd" secondAttribute="height" multiplier="1.67411" id="mq6-AA-A1L"/>
+                            <constraint firstItem="wLV-Gt-BB1" firstAttribute="leading" secondItem="x0v-kM-srv" secondAttribute="leading" id="pyI-oR-Gz7"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="oAQ-QI-NcB"/>
                     <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="dairyInputText" destination="0mx-jl-kLf" id="Tko-Oy-A7A"/>
+                        <outlet property="grainInputText" destination="owk-8N-xJW" id="nDa-oy-e91"/>
+                        <outlet property="produceInputText" destination="YCF-nM-ju0" id="CeG-UC-bm2"/>
+                        <outlet property="proteinInputText" destination="W8V-co-Frc" id="pB6-fj-C6q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1e2-XT-Is9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1124.6376811594205" y="40.848214285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dhf-d1-hSm">
+            <objects>
+                <viewController id="RSU-cX-ktN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="SJl-FQ-oJP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Karlie's Kookies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vZ-xT-PIl">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
+                                <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uuD-L3-eT2">
+                                <rect key="frame" x="0.0" y="801" width="414" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2901961207" green="0.40392160420000001" blue="0.36078432199999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
+                                <color key="textColor" red="0.63529413940000001" green="0.83137255909999996" blue="0.75686275960000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8nL-ZY-BEB">
+                                <rect key="frame" x="0.0" y="158" width="414" height="646"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Q8-JG-Y6z">
+                                        <rect key="frame" x="24" y="10" width="119" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhH-8q-o8G">
+                                        <rect key="frame" x="40" y="48" width="307" height="285"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">3 1/2 cup almond flour
+1/4 cup slivered almonds
+3/4 cup olive oil
+1/2 cup agave
+1 1/2 teaspoon cornstarch
+1/4 teaspoon baking soda
+1 1/2 teaspoon vanilla
+2 1/2 cup gluten-free oats
+1-2 cup vegan dark chocolate chips
+1 teaspoon baking powder
+1/2 teaspoon kosher salt
+pinch Cinnamon (optional)</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAP-Xe-SmS">
+                                        <rect key="frame" x="10" y="355" width="112" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1. Combine all wet ingredients in a small bowl and whisk together until fully mixed. Set aside." lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOJ-Go-uPG">
+                                        <rect key="frame" x="24" y="374" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 2. In a separate, larger bowl, mix together all dry ingredients." lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IM2-5t-NOm">
+                                        <rect key="frame" x="24" y="451" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sf-mw-spy">
+                                        <rect key="frame" x="24" y="540" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Step 3. Dig a small well in the middle of the dry ingredients and pour wet ingredients in. Mix well with spatula until evenly incorporated.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 5. Bake for 6-8 minutes or until the edges of the cookies begin to brown." lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKy-eY-dUI">
+                                        <rect key="frame" x="24" y="758" width="360" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ck5-ad-uww">
+                                        <rect key="frame" x="21" y="649" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Step 4. Heat oven to 325°F. Roll dough onto flat surface and use round shape to cut out, or use ice cream scoop to put dough on cookie sheet.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0d2-8W-nmJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1065"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eat and Enjoy!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ek6-re-fyj">
+                                                <rect key="frame" x="32" y="848" width="156" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download22" translatesAutoresizingMaskIntoConstraints="NO" id="ikT-H7-vAk">
+                                                <rect key="frame" x="32" y="886" width="323" height="179"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.9529411793" green="0.95686274770000002" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="snY-cZ-MrH"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCt-Qj-UwP">
+                                        <rect key="frame" x="24" y="10" width="119" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="19" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edR-T3-2o6">
+                                        <rect key="frame" x="40" y="48" width="307" height="285"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">3 1/2 cup almond flour
+1/4 cup slivered almonds
+3/4 cup olive oil
+1/2 cup agave
+1 1/2 teaspoon cornstarch
+1/4 teaspoon baking soda
+1 1/2 teaspoon vanilla
+2 1/2 cup gluten-free oats
+1-2 cup vegan dark chocolate chips
+1 teaspoon baking powder
+1/2 teaspoon kosher salt
+pinch Cinnamon (optional)</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Directions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fZ-1Y-S29">
+                                        <rect key="frame" x="10" y="355" width="112" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1. Combine all wet ingredients in a small bowl and whisk together until fully mixed. Set aside." lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcd-hB-mKX">
+                                        <rect key="frame" x="24" y="374" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 2. In a separate, larger bowl, mix together all dry ingredients." lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MwF-sw-hd8">
+                                        <rect key="frame" x="24" y="451" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xt9-OL-SV5">
+                                        <rect key="frame" x="24" y="540" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Step 3. Dig a small well in the middle of the dry ingredients and pour wet ingredients in. Mix well with spatula until evenly incorporated.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 5. Bake for 6-8 minutes or until the edges of the cookies begin to brown." lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIh-hr-wbj">
+                                        <rect key="frame" x="24" y="758" width="360" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHJ-c7-dB9">
+                                        <rect key="frame" x="21" y="649" width="360" height="101"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Step 4. Heat oven to 325°F. Roll dough onto flat surface and use round shape to cut out, or use ice cream scoop to put dough on cookie sheet.</string>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="0d2-8W-nmJ" firstAttribute="top" secondItem="8nL-ZY-BEB" secondAttribute="top" id="3Ze-Wa-ByR"/>
+                                    <constraint firstAttribute="trailing" secondItem="0d2-8W-nmJ" secondAttribute="trailing" id="7Ct-ew-90n"/>
+                                    <constraint firstAttribute="bottom" secondItem="0d2-8W-nmJ" secondAttribute="bottom" id="jQ3-Ub-Nap"/>
+                                    <constraint firstItem="0d2-8W-nmJ" firstAttribute="leading" secondItem="8nL-ZY-BEB" secondAttribute="leading" id="ph1-10-o5X"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cCo-jm-X7o"/>
+                        <color key="backgroundColor" red="0.95686274770000002" green="0.95686274770000002" blue="0.92549026010000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="cCo-jm-X7o" firstAttribute="bottom" secondItem="8nL-ZY-BEB" secondAttribute="bottom" constant="58" id="RTG-rW-HP2"/>
+                            <constraint firstItem="8nL-ZY-BEB" firstAttribute="trailing" secondItem="cCo-jm-X7o" secondAttribute="trailing" id="Rdu-rd-8eu"/>
+                            <constraint firstItem="0d2-8W-nmJ" firstAttribute="height" secondItem="SJl-FQ-oJP" secondAttribute="height" multiplier="1.67411" id="Vcu-lG-icY"/>
+                            <constraint firstItem="8nL-ZY-BEB" firstAttribute="leading" secondItem="cCo-jm-X7o" secondAttribute="leading" id="eHR-0l-xVh"/>
+                            <constraint firstItem="0d2-8W-nmJ" firstAttribute="width" secondItem="SJl-FQ-oJP" secondAttribute="width" id="krN-ev-0iW"/>
+                            <constraint firstItem="8nL-ZY-BEB" firstAttribute="top" secondItem="cCo-jm-X7o" secondAttribute="top" constant="114" id="ona-km-nNr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pud-sB-zJe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3873.913043478261" y="798.88392857142856"/>
         </scene>
     </scenes>
     <resources>
         <image name="bag.fill.badge.plus" catalog="system" width="128" height="128"/>
         <image name="book.closed.fill" catalog="system" width="115" height="128"/>
         <image name="checklist.rtl" catalog="system" width="128" height="105"/>
+        <image name="download22" width="272" height="185"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

@@ -7,3 +7,9 @@
 
 import Foundation
 
+class shoppingListData {
+    static var dairy = ""
+    static var produce = ""
+    static var protein = ""
+    static var grain = ""
+}

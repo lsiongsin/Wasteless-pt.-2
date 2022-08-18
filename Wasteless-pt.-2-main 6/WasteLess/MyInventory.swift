@@ -20,10 +20,18 @@ class MyInventory: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        dairyItemInput.text = shoppingListData.dairy
+        
+        produceItemInput.text = shoppingListData.produce
+        
+        proteinItemInput.text = shoppingListData.protein
+        
+        grainItemInput.text = shoppingListData.grain
+        
         // Do any additional setup after loading the view.
     }
     
-    dairyItemInput.text = InitialData.textPassed
+    
     
     /*
     // MARK: - Navigation
